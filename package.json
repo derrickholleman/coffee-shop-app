@@ -44,9 +44,10 @@
 	},
 	"type": "module",
 	"lint-staged": {
-        "src/**/*.{ts,tsx,svelte}": [
-            "npm run check",
-            "npm run format"
-        ]
-    }
+		"src/**/*.{ts,tsx,svelte}": [
+			"npm run format",
+			"npm run lint",
+			"npm run check"
+		]
+	}
 }
