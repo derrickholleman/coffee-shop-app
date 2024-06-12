@@ -45,6 +45,7 @@
 	"lint-staged": {
 		"src/**/*.{ts,tsx,svelte}": [
 			"npm run format",
+			"git add .",
 			"npm run lint",
 			"npm run check"
 		]
