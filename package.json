@@ -46,7 +46,7 @@
 	"lint-staged": {
         "src/**/*.{ts,tsx,svelte}": [
             "npm run check",
-            "npm run prettier"
+            "npm run format"
         ]
     }
 }
