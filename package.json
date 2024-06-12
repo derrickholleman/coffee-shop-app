@@ -44,7 +44,7 @@
 	},
 	"type": "module",
 	"lint-staged": {
-        "src/**/*.{ts,tsx}": [
+        "src/**/*.{ts,tsx,svelte}": [
             "npm run check",
             "npm run prettier"
         ]
