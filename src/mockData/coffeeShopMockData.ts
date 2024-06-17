@@ -1,4 +1,4 @@
-import { ParkingTypes, RatingCriteria, type CoffeeShop } from '../types/types';
+import { ParkingTypes, RatingCriteria, type CoffeeShop } from '$src/types/types';
 
 export const COFFEE_SHOPS: CoffeeShop[] = [
 	{
