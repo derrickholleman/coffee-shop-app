@@ -48,7 +48,8 @@
 			"npm run format",
 			"git add .",
 			"npm run lint",
-			"npm run check"
+			"npm run check",
+			"npm run test:ci"
 		]
 	}
 }

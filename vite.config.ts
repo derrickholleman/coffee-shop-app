@@ -6,6 +6,7 @@ export default defineConfig({
 	test: {
 		environment: 'happy-dom',
 		include: ['src/**/*.{test,spec}.{js,ts}'],
+		exclude: ['src/types', 'src/mockData'],
 		globals: true
 	}
 });
