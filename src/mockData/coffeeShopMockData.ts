@@ -58,5 +58,48 @@ export const COFFEE_SHOPS: CoffeeShop[] = [
 			}
 		],
 		additionalComments: 'N/A'
+	},
+	{
+		name: 'Just Love Coffee',
+		address: '11611 Theatre Drive N, Champlin MN 55316',
+		hours: '6am-4pm Monday-Friday, 7am-4pm Saturday-Sunday',
+		parking: ParkingTypes.PARKING_LOT,
+		derrickRatings: [
+			{
+				criterion: RatingCriteria.FOOD,
+				rating: 4
+			},
+			{
+				criterion: RatingCriteria.DRINK,
+				rating: 3
+			},
+			{
+				criterion: RatingCriteria.ATMOSPHERE,
+				rating: 3
+			},
+			{
+				criterion: RatingCriteria.SERVICE,
+				rating: 4
+			}
+		],
+		stefRatings: [
+			{
+				criterion: RatingCriteria.FOOD,
+				rating: 3
+			},
+			{
+				criterion: RatingCriteria.DRINK,
+				rating: 4
+			},
+			{
+				criterion: RatingCriteria.ATMOSPHERE,
+				rating: 3
+			},
+			{
+				criterion: RatingCriteria.SERVICE,
+				rating: 4
+			}
+		],
+		additionalComments: 'N/A'
 	}
 ];
